@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Reverse Text Extension",
+  "version": "1.0",
+  "description": "Reverses the order of text on a page",
+  "permissions": [
+    "scripting", "activeTab"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content2.js"]
+    }
+  ]
+  }
