@@ -1,5 +1,0 @@
-- create new folder
-- confirm if can still be loaded as a chrome extension with similar capabilities
-- see if can read string, create new string from it, and spit out in message similar to Hello world
-- see if can use string to call API 
-- see if can print API return on screen somewhere

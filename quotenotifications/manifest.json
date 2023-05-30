@@ -1,10 +1,10 @@
 {
     "name": "Click to show an alert",
     "description": "A Chrome Extension that shows random quotes as notification",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "manifest_version": 3,
     "background": {
-        "service_worker": "background.js"
+        "service_worker": "background_v3.js"
     },
     "permissions": ["activeTab", "scripting"],
     "action": {
