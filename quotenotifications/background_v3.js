@@ -1,6 +1,5 @@
-chrome.action.onClicked.addListener((tab) => {
-    chrome.scripting.executeScript({
-      target: {tabId: tab.id},
-      files: ['content.js']
-    });
-  });
+chrome.browserAction.onClicked.addListener(sendfunc);
+function sendfunc(tab){
+    msg={txtt:"execute"};
+    chrome.tabs.sendMessage(tab.id,msg);
+}

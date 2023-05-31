@@ -1,18 +1,17 @@
 {
     "name": "Click to show an alert",
     "description": "A Chrome Extension that shows random quotes as notification",
-    "version": "1.0.2",
+    "version": "1.0.12",
     "manifest_version": 3,
     "background": {
-        "service_worker": "background_v3.js"
+        "service_worker": "background_v2.js"
     },
-    "permissions": ["activeTab", "scripting"],
+    "permissions": ["storage","alarms", "notifications","scripting", "tabs"],
+    "host_permissions": ["https://www.bccrew.org/", "https://*/", "http://*/"],
     "action": {
-        "default_icon": {
-            "16": "readingImages/icon-16.png",
-            "48": "readingImages/icon-48.png",
-            "128": "readingImages/icon-128.png"
-        }
+        "16": "readingImages/icon-16.png",
+        "48": "readingImages/icon-48.png",
+        "128": "readingImages/icon-128.png" 
     },
     "icons": {
         "16": "readingImages/icon-16.png",
