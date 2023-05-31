@@ -4,7 +4,7 @@
     "version": "1.0.12",
     "manifest_version": 3,
     "background": {
-        "service_worker": "background_v2.js"
+        "service_worker": "background_v1.js"
     },
     "permissions": ["storage","alarms", "notifications","scripting", "tabs"],
     "host_permissions": ["https://www.bccrew.org/", "https://*/", "http://*/"],
