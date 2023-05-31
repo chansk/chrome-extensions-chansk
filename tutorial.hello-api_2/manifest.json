@@ -1,0 +1,15 @@
+{
+  "name": "My api extension",
+  "description": "Base Level Extension",
+  "version": "1.0.3",
+  "manifest_version": 3,
+  "action": {
+    "default_title": "Click to show an alert",
+    "default_icon": "bc_crest_3.png"
+  },
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+}
+}
+
