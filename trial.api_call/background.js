@@ -30,7 +30,7 @@ function makeChatGPTAPIRequest(input) {
   // You'll need to provide your API credentials and construct the appropriate API call
   // Here's a simplified example using fetch:
 
-  const apiKey = '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';
+  const apiKey = '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';
   const url = 'https://api.openai.com/v1/chat/completions';
 
   return fetch(url, {

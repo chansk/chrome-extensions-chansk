@@ -1,5 +1,5 @@
 {
-    "name": "Click to show an alert",
+    "name": "Quote notifications",
     "description": "A Chrome Extension that shows random quotes as notification",
     "version": "1.0.12",
     "manifest_version": 3,
