@@ -1,7 +1,7 @@
 {
   "name": "Click for ChatGPT",
   "description": "Base Level Extension",
-  "version": "1.0.3",
+  "version": "1.0.6",
   "manifest_version": 3,
   "action": {
     "default_title": "Click to show an alert",
